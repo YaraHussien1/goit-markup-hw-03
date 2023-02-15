@@ -1,0 +1,215 @@
+/* Variables  */
+:root {
+  --brand-color: #2196f3;
+  --brnd-hover-main: #188CE8;
+  --brand-background-color: #2f303a;
+  --brand-background-sub-color: #f5f4fa;
+  --brand-text-color: #212121;
+  --brand-sub-color: #757575;
+  --brand-white-color: #fff;
+  --font-fmily-brand: "Raleway", sans-serif;
+  --font-family-main: "Roboto", sans-serif;
+}
+/* Body Css */
+body {
+  font-family: var(--font-family-main);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
+/* Header Css */
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.list-item .link.active {
+  color: var(--brand-color);
+}
+.contact-list li a{
+  font-weight: 500;
+  color: var(--brand-sub-color);
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+  color: var(--brand-color);
+}
+
+/* .btn:hover,
+button:focus {
+  color: var(--brand-background-color);
+} */
+/* Buttons Css */
+.btn {
+  cursor: pointer;
+  border: none;
+  font-family: var(--font-family-main);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.logo {
+  font-family: var(--font-fmily-brand);
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--brand-color);
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+
+/* Introduction Css */
+.introduction {
+  background-color: var(--brand-background-color);
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-white-color);
+}
+
+.btn-primary {
+  background: var(--brand-color);
+  color: var(--brand-white-color);
+  font-family: var(--font-family-main);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-bottom-left-radius: 0;
+  font-weight: 700;
+  font-size: 16;
+  line-height: 1.88;
+  padding: 10px 20px 10px 20px;
+}
+.btn.btn-primary:hover {
+ background-color: var(--brnd-hover-main);
+ color: var(--brand-white-color);
+}
+.btn.active {
+  background-color: var(--brand-color);
+  color: var(--brand-white-color);
+}
+.section .sction-sub-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* -- */
+
+.section .description{
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.7;
+ letter-spacing: 0.03em;
+ color: var(--brand-sub-color);
+}
+/* About css */
+
+.section-title{
+  color: var(--brand-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+}
+
+.team-info .team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+}
+.team-info .team-job {
+  color: var(--brand-sub-color);
+  font-weight: 400;
+  font-size: 16;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+}
+.team {
+  background-color: var(--brand-background-sub-color);
+}
+
+/* Portfolio Css */
+.portfolio-filter .btn {
+  background-color: var(--brand-background-sub-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portfolio-filter .btn.btn.active {
+  background-color: var(--brand-color);
+}
+.btn:hover {
+  color: var(--brand-color);
+}
+.btn.btn-filter{
+  font-family: var(--font-family-main);
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  padding: 6px 26px;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.btn.btn-filter:hover{
+  color: var(--brand-white-color);
+  background-color: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio .project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio .project-category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--brand-sub-color);
+}
+/* Footer - Style */
+.footer {
+  background-color: var(--brand-background-color);
+}
+.address {
+  color:rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.address ul {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.address .contact{
+  color: rgba(255, 255, 255, 0.6);
+
+}
+.contact.link:hover,
+.address .link:hover{
+  color: var(--brand-white-color);
+}
