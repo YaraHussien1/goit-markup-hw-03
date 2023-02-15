@@ -7,24 +7,25 @@
     <meta name="description" content="Module1- HomeWork 1- WebStudio" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link href="./css//styles.css" rel="stylesheet">
     <title>WebStudio</title>
   </head>
-  <body>
+  <body class="">
     <!-- Page header -->
-    <header class="header">
+    <header class="header container">
 
       <nav class="navbar">
         <!-- Navigation to other pages -->
-      <a href="./index.html" class="logo">WebStudio</a>
+      <a href="./index.html" class="logo link">WebStudio</a>
 
-        <ul class="nav-list">
+        <ul class="nav-list list">
           <li class="list-item"><a href="./index.html" class="link active">Studio</a></li>
           <li class="list-item"><a href="./portfolio.html" class="link">Portfolio</a></li>
           <li class="list-item"><a href="#" class="link"  >Contacts</a></li>
         </ul>
       </nav>
-      <ul class="contact-list">
+      <ul class="contact-list list">
       
 
         <li>
@@ -39,12 +40,13 @@
     </header>
     <main>
 
-    <section class="section introduction">
+    <section class="section introduction container">
       <h1 class="title">effective solutions for <br> your business </h1>
       <button type="button" class="btn btn-primary">Request our service</button>
     </section>
-    <section class="section ">
-      <ul>
+
+    <section class="section  ">
+      <ul class="list">
         <li>
           <h3 class="sction-sub-title">ATTENTION TO DETAILS</h3>
           <p class="description">
@@ -77,7 +79,7 @@
     </section>
     <section class=" section about">
       <h2 class="section-title">What we do</h2>
-      <ul>
+      <ul class="list">
         <li>
           <img
             src="images/about/about3.jpg"
@@ -103,12 +105,14 @@
     </section>
     <section class=" section about team">
       <h2 class="section-title">Our team</h2>
-      <ul>
-        <li>
+      <ul class="list">
+        <li class="card" >
             <img
+              class="card-img"
               src="images/team/team3.jpg"
               alt="Team member male"
               width="270"
+              height="260"
             />
           <div class="team-info">
             <h3 class="team-name">Cristopher Walker</h3>
@@ -116,33 +120,39 @@
           </div>
           
         </li>
-        <li>
+        <li class="card" >
             <img
+            class="card-img"
               src="images/team/team1.jpg"
               alt="Team member Female"
               width="270"
+              height="260"
             />
           <div class="team-info">
             <h3 class="team-name">Kylie Evans</h3>
             <p class="team-job">Forntend Developer</p>
           </div>
         </li>
-        <li>
+        <li class="card" >
             <img
+            class="card-img"
               src="images/team/team4.jpg"
               alt="Team member Male"
               width="270"
+              height="260"
             />
           <div class="team-info">
             <h3 class="team-name">Rayan Harris</h3>
             <p class="team-job">Marketing</p>
           </div>
         </li>
-        <li>
+        <li class="card" >
             <img
+            class="card-img"
               src="images/team/team2.jpg"
               alt="Team member Male"
               width="270"
+              height="260"
             />
           <div class="team-info">
             <h3 class="team-name">Tyler Moore</h3>
@@ -154,10 +164,10 @@
   </main>
 
     <!-- Page footer -->
-    <footer class="footer">
+    <footer class="footer container">
       <a href="./index.html" class="logo link"> WebStudio</a>
       <address class="address">
-        <ul>
+        <ul class="list">
           <li>
             <a href="#" class="link">
               695 Park Ave, New York, NY 10065, <br />
