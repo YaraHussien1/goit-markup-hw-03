@@ -145,14 +145,38 @@ button:focus {
   align-items: center;
   justify-content: center;
 }
+
+.section .portfolio-filter .list li{
+  margin-right: 8px;
+}
+.section .portfolio-list{
+  display: flex;
+  /* Make a flex container multiline */
+  flex-wrap: wrap;
+  /* Set gap between rows and columns */
+  gap: 8px;
+  padding: 0;
+  list-style: none;
+}
+.section .portfolio-list li{
+  /*  Set the width of the elements  */
+  flex-basis: calc((100% - 20px) / 3);
+  
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 .section .list {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .section .list li {
-  /* m-right: 30px; */
-  margin-right: 30px;
+
+padding-right: 8px;
+
 }
 /* Introduction Css */
 .introduction {
