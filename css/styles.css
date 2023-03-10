@@ -136,6 +136,11 @@ button:focus {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+/* Section */
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 /* Introduction Css */
 .introduction {
@@ -161,9 +166,8 @@ button:focus {
   font-family: var(--font-family-main);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border-bottom-left-radius: 0;
   font-weight: 700;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.88;
   padding: 10px 20px 10px 20px;
 }
@@ -175,11 +179,7 @@ button:focus {
   background-color: var(--brand-color);
   color: var(--brand-white-color);
 }
-/* Section */
-.section{
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .no-padding-top{
   padding-top: 0;
 }
@@ -205,6 +205,7 @@ margin-bottom: 9.4px;
   flex-basis: calc( 100% / 4 - 30px );
   margin-left: 30px;
   margin-top: 30px;
+  padding-bottom: 30px;
 
 }
 .section .description {
@@ -242,8 +243,7 @@ margin-bottom: 9.4px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
-.team-item .team-image,
-.team-job{
+.team-item .team-image{
   margin-bottom: 30px;
 }
 .team-info .team-name {
@@ -256,7 +256,7 @@ border-radius: 0px 0px 4px 4px;
 .team-info .team-job {
   color: var(--brand-sub-color);
   font-weight: 400;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.2;
   text-align: center;
 }
@@ -265,7 +265,11 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /* Portfolio Css */
-
+.portfolio-filter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .portfolio-filter .btn {
   background-color: var(--brand-background-sub-color);
   font-weight: 500;
@@ -299,31 +303,27 @@ border-radius: 0px 0px 4px 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
-  margin-right: 24px;
   margin-bottom: 4px;
 }
 .portfolio .project-category {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  margin: 0 24px 20px 24px;
-
   color: var(--brand-sub-color);
 }
  .filter-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -295px;
-  /* margin-top: -295px; */
   margin-bottom: 50px;
+}
+.project-info{
+  padding: 20px 24px;
+border: 1px solid #EEEEEE;
+border-top: none;
 }
 
 .filter-list {
   flex-basis: calc( 100% / 5 - 30px );
-  margin-left: 295px;
-  /* margin-top: 295px; */
-
 }
 
 .filter-list .filter-item:not(:last-child){
@@ -331,7 +331,6 @@ border-radius: 0px 0px 4px 4px;
 }
 .portfolio-item{
   background: var(--brand-white-color);
-border: 1px solid #EEEEEE;
 }
 .portfolio-item .portfolio-img{
   margin-bottom: 20px;
@@ -345,6 +344,8 @@ border: 1px solid #EEEEEE;
 }
 .footer .logo{
   margin-bottom: 9px;
+  padding: 0;
+  display: block;
 }
 
 .address {
